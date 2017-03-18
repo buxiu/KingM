@@ -21,6 +21,7 @@ import com.netease.nimlib.sdk.uinfo.UserInfoProvider;
 
 public class KMApplication extends Application {
     public void onCreate() {
+        super.onCreate();
         // ... your codess
 
         // SDK初始化（启动后台服务，若已经存在用户登录信息， SDK 将完成自动登录）
