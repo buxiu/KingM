@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.os.Environment;
 
 import com.km.R;
+import com.netease.nim.uikit.NimUIKit;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.SDKOptions;
 import com.netease.nimlib.sdk.StatusBarNotificationConfig;
@@ -25,6 +26,14 @@ public class KMApplication extends Application {
 
         // SDK初始化（启动后台服务，若已经存在用户登录信息， SDK 将完成自动登录）
         NIMClient.init(this, loginInfo(), options());
+
+        // 初始化UI
+        initUiKit();
+    }
+
+    //初始化UI
+    private void initUiKit() {
+        NimUIKit.init(this);
     }
 
     // 如果返回值为 null，则全部使用默认参数。
