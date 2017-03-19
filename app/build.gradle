@@ -47,5 +47,7 @@ dependencies {
     compile 'com.netease.nimlib:rts:3.5.0'
     // 全文检索服务需要
     compile 'com.netease.nimlib:lucene:3.5.0'
+    //网易云信 UI 组件
+    compile project(path: ':uikit')
     testCompile 'junit:junit:4.12'
 }
