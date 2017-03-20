@@ -7,16 +7,19 @@ import android.graphics.Color;
 import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.km.R;
 import com.km.util.Preferences;
 import com.km.util.SystemUtil;
 import com.netease.nim.uikit.NimUIKit;
+import com.netease.nim.uikit.session.SessionEventListener;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.SDKOptions;
 import com.netease.nimlib.sdk.StatusBarNotificationConfig;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
+import com.netease.nimlib.sdk.msg.model.IMMessage;
 import com.netease.nimlib.sdk.uinfo.UserInfoProvider;
 
 /**
@@ -48,7 +51,26 @@ public class KMApplication extends Application {
     //初始化UI
     private void initUiKit() {
         NimUIKit.init(this);
+        setClickListener();//用户头像点击事件监听
     }
+
+    private void setClickListener() {
+        SessionEventListener listener = new SessionEventListener() {
+            @Override
+            public void onAvatarClicked(Context context, IMMessage message) {
+                // 一般用于打开用户资料页面
+                Toast.makeText(context,"短按",Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onAvatarLongClicked(Context context, IMMessage message) {
+                // 一般用于群组@功能，或者弹出菜单，做拉黑，加好友等功能
+                Toast.makeText(context,"长按",Toast.LENGTH_SHORT).show();
+            }
+        };
+        NimUIKit.setSessionListener(listener);
+    }
+
 
     // 如果返回值为 null，则全部使用默认参数。
     private SDKOptions options() {
