@@ -13,7 +13,7 @@ public class UserInfoHelper {
 
     // 获取用户显示在标题栏和最近联系人中的名字
     public static String getUserTitleName(String id, SessionTypeEnum sessionType) {
-        if (sessionType == SessionTypeEnum.P2P) {
+        /*if (sessionType == SessionTypeEnum.P2P) {
             if (NimUIKit.getAccount().equals(id)) {
                 return "我的电脑";
             } else {
@@ -21,7 +21,7 @@ public class UserInfoHelper {
             }
         }  else if (sessionType == SessionTypeEnum.Team) {
             return TeamDataCache.getInstance().getTeamName(id);
-        }
+        }*/
         return id;
     }
 

@@ -5,8 +5,12 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Environment;
+import android.text.TextUtils;
+import android.util.Log;
 
 import com.km.R;
+import com.km.util.Preferences;
+import com.km.util.SystemUtil;
 import com.netease.nim.uikit.NimUIKit;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.SDKOptions;
@@ -24,11 +28,21 @@ public class KMApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        KMCache.setContext(this);
+
         // SDK初始化（启动后台服务，若已经存在用户登录信息， SDK 将完成自动登录）
         NIMClient.init(this, loginInfo(), options());
 
         // 初始化UI
-        initUiKit();
+        if(inMainProcess()){
+            initUiKit();
+        }
+    }
+
+    public boolean inMainProcess() {
+        String packageName = getPackageName();
+        String processName = SystemUtil.getProcessName(this);
+        return packageName.equals(processName);
     }
 
     //初始化UI
@@ -99,7 +113,15 @@ public class KMApplication extends Application {
 
     // 如果已经存在用户登录信息，返回LoginInfo，否则返回null即可
     private LoginInfo loginInfo() {
-        return null;
+        String account = Preferences.getUserAccount();
+        String token = Preferences.getUserToken();
+
+        if (!TextUtils.isEmpty(account) && !TextUtils.isEmpty(token)) {
+            KMCache.setAccount(account.toLowerCase());
+            return new LoginInfo(account, token);
+        } else {
+            return null;
+        }
     }
 
 }

@@ -32,12 +32,12 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\color\\color_picker_preview_selector.xml",

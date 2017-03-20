@@ -64,10 +64,6 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\image_layout_multi_touch.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
@@ -312,16 +308,12 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_team_info_activity.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_advanced_team_info_divider_item.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_advanced_team_info_divider_item.xml"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_message_fragment.xml",
@@ -360,24 +352,24 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_easy_alert_dialog_with_listview.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_easy_alert_dialog_with_listview.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines_media.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_easy_alert_dialog_with_listview.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_easy_alert_dialog_with_listview.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_contact_loading_frame.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_contact_loading_frame.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -386,10 +378,6 @@
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_custom_dialog_list_item.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_custom_dialog_list_item.xml"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action.xml",
@@ -468,10 +456,6 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_item_text.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\design_layout_snackbar.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -528,10 +512,6 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_message_item_video.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_item_video.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -540,16 +520,16 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_message_item_video.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_item_video.xml"
+    },
+    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_message_activity.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_activity.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_actions_item_layout.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_actions_item_layout.xml"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media_custom.xml",

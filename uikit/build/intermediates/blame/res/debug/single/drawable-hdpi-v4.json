@@ -20,24 +20,16 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\explosion_one.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_image_download_failed.jpg",
-        "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_image_download_failed.jpg"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_image_download_failed.jpg",
+        "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_image_download_failed.jpg"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_new_message_notify.png",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_new_message_notify.png"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_actionbar_dark_logo_icon.png",
@@ -68,24 +60,24 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_moon_page_selected.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_music_icon_play.png",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_music_icon_play.png"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_unsupport_mime_type.png",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_unsupport_mime_type.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_avatar_group.png",
-        "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_avatar_group.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_avatar_group.png",
+        "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_avatar_group.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_g_unread_badge.9.png",
@@ -256,10 +248,6 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_contact_letter_view_hit_point.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -352,16 +340,16 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_team_member_delete_normal.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -398,10 +386,6 @@
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_avatar_default.png",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_avatar_default.png"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_icon_download_resume.png",
@@ -532,10 +516,6 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_messages_list_empty_bg.png"
     },
@@ -556,12 +536,12 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_message_input_send_pressed.9.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_team_member_delete_pressed.png",
@@ -586,10 +566,6 @@
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_actionbar_search_dark_icon.png",
@@ -652,10 +628,6 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\nim_picker_preview_disable.png"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\explosion_three.png",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable-hdpi\\explosion_three.png"
     },
@@ -678,10 +650,6 @@
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_message_right_blue_bg.9.png",

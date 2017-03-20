@@ -4,10 +4,6 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_video_play_icon_selector.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_video_play_icon_selector.xml"
     },
@@ -68,10 +64,6 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_view_pager_indicator_selector.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_team_member_add_selector.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_team_member_add_selector.xml"
     },
@@ -84,12 +76,12 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_picker_preview_btn_selector.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_portrait_mask_square.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_portrait_mask_square.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_portrait_mask_square.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_portrait_mask_square.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
@@ -116,12 +108,12 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_gray_edit_text_bg.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_play_btn_select.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_play_btn_select.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_play_btn_select.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_play_btn_select.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_message_item_round_bg.xml",
@@ -164,12 +156,12 @@
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\design_password_eye.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_password_eye.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\design_bottom_navigation_item_background.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\design_password_eye.xml",
+        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_password_eye.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_cancel_record_red_bg.xml",
@@ -262,10 +254,6 @@
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_cameras_selector.xml",
         "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_cameras_selector.xml"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",

@@ -13,22 +13,31 @@ import com.km.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity<V,T extends BasePresent<V>> extends AppCompatActivity {
 
     private static final int RUNTIME_PERMISSION_REQUEST_CODE = 1;
     private static RuntimePermissionListener mRuntimePermissionListener;
+
+    public T present;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityCollector.addActivity(this);//进栈
+        present = initPresenter();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        present.attach((V)this);
+    }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         ActivityCollector.removeActivity(this);//出栈
+        present.dettach();
     }
 
     public static void requestPermission(String[] permissions, RuntimePermissionListener listener){
@@ -81,4 +90,7 @@ public class BaseActivity extends AppCompatActivity {
                 break;
         }
     }
+
+    //实例化present
+    public abstract T initPresenter();
 }
