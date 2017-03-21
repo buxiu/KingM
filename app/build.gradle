@@ -32,7 +32,7 @@ dependencies {
     // appcompat兼容包
     compile 'com.android.support:appcompat-v7:25.2.0'
     //okHttp
-    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    //compile 'com.squareup.okhttp3:okhttp:3.6.0'
     // material design 设计包
     //compile 'com.android.support:design:25.2.0'
     // recycler view控件
@@ -50,11 +50,11 @@ dependencies {
     //compile 'com.netease.nimlib:lucene:3.5.0'
     //网易云信 UI 组件
     compile project(path: ':uikit')
-
-    //以下SDK开发者请根据需要自行选择
-    //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务，以下是最新的bmob-sdk:
-    //3.5.0：请务必查看下面注释[1]
+    //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务
     compile 'cn.bmob.android:bmob-sdk:3.5.3'
-
+    //利用RecyclerView打造的滑动卡片View，支持左滑右滑删除
+    compile 'com.github.HalfStackDeveloper:SwipeCardRecyclerView:v1.0.1'
+    //圆形图片按钮
+    compile 'de.hdodenhof:circleimageview:2.1.0'
     testCompile 'junit:junit:4.12'
 }
