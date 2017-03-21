@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:text="你最喜欢的电影是什么呢？"
+        android:id="@+id/title_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:text="《不能说的秘密》"
+        android:id="@+id/A_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title_answer"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:text="《扑街子》"
+        android:id="@+id/B_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/A_answer"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:text="《食屎啦你》"
+        android:id="@+id/C_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/B_answer"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:orientation="vertical"
     tools:context="com.km.main.MainActivity">
 
-    <Button
-        android:text="聊天"
-        android:onClick="toChatUI"
+    <include
+        layout="@layout/titlelayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="38dp"/>
 
-    <fragment
-        android:id="@+id/recent_contacts_fragment"
-        android:name="com.netease.nim.uikit.recent.RecentContactsFragment"
+    <com.wangxiandeng.swipecardrecyclerview.SwipeCardRecyclerView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </fragment>
+        android:layout_height="match_parent" />
 </LinearLayout>

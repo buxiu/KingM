@@ -15,5 +15,4 @@ public interface IUserBiz {
      * Activity 类型的Context 以及聊天对象的 Account */
     void toChatUI(Context context,String account);
 
-
 }
