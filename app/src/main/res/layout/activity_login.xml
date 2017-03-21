@@ -54,7 +54,12 @@
             android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"/>
+            android:text="登录"/>
+        <Button
+            android:id="@+id/btn_to_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转注册"/>
     </LinearLayout>
 
 </LinearLayout>

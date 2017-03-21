@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.km">
 
+
+    <!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- 权限声明 -->
     <!-- 访问网络状态 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -103,7 +106,6 @@
             android:name="com.netease.cosine.target.receiver"
             android:value="com.netease.nimlib.service.NimReceiver" />
 
-        <activity android:name=".base.BaseActivity" />
         <activity android:name=".main.MainActivity" />
         <activity android:name=".main.LoginActivity"></activity>
     </application>

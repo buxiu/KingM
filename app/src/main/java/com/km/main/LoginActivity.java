@@ -1,5 +1,6 @@
 package com.km.main;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,10 +16,10 @@ import com.netease.nimlib.sdk.RequestCallback;
 import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText account;//用户名
     private EditText passwd;//密码
-    private Button login;//登录
+    private Button login,toRegister;//登录
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +29,9 @@ public class LoginActivity extends AppCompatActivity {
         passwd  = (EditText)findViewById(R.id.passwd);//初始化控件
         login = (Button) findViewById(R.id.login);//初始化控件
         //实现Button的监听
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                login();
-            }
-        });
+        login.setOnClickListener(this);
+        toRegister.setOnClickListener(this);
+
     }
     private void login(){
         final String name = account.getText().toString().toLowerCase();//获取edittext上用户输入的account
@@ -66,5 +64,23 @@ public class LoginActivity extends AppCompatActivity {
     private void saveLoginInfo(final String account, final String token) {
         Preferences.saveUserAccount(account);
         Preferences.saveUserToken(token);
+    }
+
+    public static void actionActivity(Context context){
+        Intent intent = new Intent(context,LoginActivity.class);
+        context.startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View v) {
+        int id = v.getId();
+        switch (id){
+            case R.id.login:
+                login();
+                break;
+            case R.id.btn_to_register:
+                RegisterActivity.actionActivity(this);
+                break;
+        }
     }
 }
