@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linearrec_while_full"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtn_gallery"
+            android:layout_width="@dimen/ibtn_size"
+            android:layout_height="@dimen/ibtn_size"
+            android:src="@mipmap/ic_gallery"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="24dp"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_camera"
+            android:layout_width="@dimen/ibtn_size"
+            android:layout_height="@dimen/ibtn_size"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/ic_camera"/>
+
+    </LinearLayout>
+
+</LinearLayout>

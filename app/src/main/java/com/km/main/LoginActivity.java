@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         account = (EditText) findViewById(R.id.account);//初始化控件
         passwd  = (EditText)findViewById(R.id.passwd);//初始化控件
         login = (Button) findViewById(R.id.login);//初始化控件
+        toRegister = (Button) findViewById(R.id.btn_to_register);
         //实现Button的监听
         login.setOnClickListener(this);
         toRegister.setOnClickListener(this);

@@ -8,8 +8,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="4dp"
-        android:layout_alignParentLeft="true"
-        android:src="@mipmap/user"/>
+        android:layout_alignParentLeft="true"/>
+        <!--android:src="@mipmap/user"/>-->
 
     <TextView
         android:text="@string/km"
