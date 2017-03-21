@@ -6,7 +6,6 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Environment;
 import android.text.TextUtils;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.km.R;
@@ -21,6 +20,8 @@ import com.netease.nimlib.sdk.auth.LoginInfo;
 import com.netease.nimlib.sdk.msg.constant.SessionTypeEnum;
 import com.netease.nimlib.sdk.msg.model.IMMessage;
 import com.netease.nimlib.sdk.uinfo.UserInfoProvider;
+
+import cn.bmob.v3.Bmob;
 
 /**
  *
@@ -40,6 +41,11 @@ public class KMApplication extends Application {
         if(inMainProcess()){
             initUiKit();
         }
+
+
+        //初始化Bmob
+        //第一：默认初始化
+        Bmob.initialize(this, "3d3582d88961da33befeaa8c4ffec75d");
     }
 
     public boolean inMainProcess() {

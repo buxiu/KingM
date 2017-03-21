@@ -41,7 +41,7 @@ public class OkHttpManager {
 
 
     //线程安全和效率
-    public static OkHttpManager getInstance() {
+    private static OkHttpManager getInstance() {
         if (okHttpManager == null) {
             synchronized (OkHttpManager.class) {
                 if (okHttpManager == null) {
