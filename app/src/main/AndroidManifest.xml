@@ -105,9 +105,10 @@
         <meta-data
             android:name="com.netease.cosine.target.receiver"
             android:value="com.netease.nimlib.service.NimReceiver" />
-
         <activity android:name=".main.MainActivity" />
-        <activity android:name=".main.LoginActivity"></activity>
+        <activity android:name=".main.LoginActivity"/>
+        <activity android:name=".main.RegisterActivity"/>
+        <activity android:name=".base.BaseActivity"/>
     </application>
 
 </manifest>
