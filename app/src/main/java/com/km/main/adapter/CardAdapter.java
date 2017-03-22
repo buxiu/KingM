@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.km.R;
@@ -54,7 +55,7 @@ public class CardAdapter extends SwipeCardAdapter<CardAdapter.Holder>{
         private RadioButton a_rb,b_rb,c_rb;
         private Button check_btn;
         int right_flag;
-        int flag; //0-A 1-B 2-C
+        int flag = 4; //0-A 1-B 2-C
 
         Holder(View itemView) {
             super(itemView);
@@ -94,6 +95,10 @@ public class CardAdapter extends SwipeCardAdapter<CardAdapter.Holder>{
             check_btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    if(flag == 4){
+                        Toast.makeText(mContext,"请选择答案",Toast.LENGTH_SHORT).show();
+                        return;
+                    }
                     if(checkAnswer()){
                         mCheckAnswerListener.isTrue(account);
                     }else {
