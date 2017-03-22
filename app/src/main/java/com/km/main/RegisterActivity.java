@@ -175,7 +175,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
                 CropSquareTransformation transformation = new CropSquareTransformation();
                 Picasso.with(RegisterActivity.this)
-                        .load(new File(tips))
+                        .load(tips)
                         .transform(transformation)
                         .into(ivIcon);
 
