@@ -59,5 +59,4 @@ dependencies {
     //图片加载库
     compile 'com.github.bumptech.glide:glide:3.7.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.squareup.picasso:picasso:2.5.2'
 }

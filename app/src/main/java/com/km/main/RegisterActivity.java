@@ -10,16 +10,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.km.R;
-import com.km.tools.CropSquareTransformation;
 import com.km.tools.PictureCamera;
 import com.km.tools.PictureChoose;
 import com.km.tools.PopupWindowSelect;
 import com.km.util.IconUtil;
 import com.km.util.RegisterUtil;
-import com.squareup.picasso.Picasso;
-
-import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -172,11 +169,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             @Override
             public void onSuccess(String tips) {
                 mIcon = tips;
-
-                CropSquareTransformation transformation = new CropSquareTransformation();
-                Picasso.with(RegisterActivity.this)
+                Glide.with(RegisterActivity.this)
                         .load(tips)
-                        .transform(transformation)
                         .into(ivIcon);
 
                 tvShow.setText("头像上传成功");
