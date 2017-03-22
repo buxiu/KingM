@@ -15,8 +15,7 @@
         android:id="@+id/title_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textColor="@color/black"
         android:layout_marginTop="5dp"
         android:layout_below="@id/title_icon"/>
@@ -31,15 +30,16 @@
             android:id="@+id/A_answer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:button="@null"
-            android:background="@drawable/radio"  />
+            android:background="@drawable/radio"
+            android:layout_marginTop="3dp"/>
 
         <RadioButton
             android:id="@+id/B_answer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:layout_weight="1"
             android:button="@null"
             android:background="@drawable/radio"
@@ -49,7 +49,7 @@
             android:id="@+id/C_answer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:layout_weight="1"
             android:button="@null"
             android:background="@drawable/radio"
