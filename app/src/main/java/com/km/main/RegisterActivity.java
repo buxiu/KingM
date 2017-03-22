@@ -2,8 +2,10 @@ package com.km.main;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +19,8 @@ import com.km.tools.PictureChoose;
 import com.km.tools.PopupWindowSelect;
 import com.km.util.IconUtil;
 import com.km.util.RegisterUtil;
+import com.km.util.SnackBarUtils;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,13 +29,12 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private static final int REQUEST_PICTURE_CHOOSE_HEAD = 0x1;
     private static final int REQUEST_PICTURE_CAMERA_HEAD = 0x2;
 
-    private Button btnToLogin, btnRegister;
-    private EditText etAccid, etName, etPassword;
-    private String mAccid, mName, mPassword,mIcon = "";
-
-    private TextView tvShow;
+    private Button btnRegister;
+    private TextInputEditText etAccid, etName, etPassword;
+    private String mAccid, mName, mPassword, mIcon = "";
 
     private ImageView ivIcon;
+    private TextView tvBtnToLogin;
 
     private PictureCamera mCamera;
     private PictureChoose mChoose;
@@ -45,28 +48,24 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void initView() {
-        etAccid = (EditText) findViewById(R.id.et_accid);
-        etName = (EditText) findViewById(R.id.et_name);
-        etPassword = (EditText) findViewById(R.id.et_passwd);
+        etAccid = (TextInputEditText) findViewById(R.id.tiet_accid);
+        etName = (TextInputEditText) findViewById(R.id.tiet_name);
+        etPassword = (TextInputEditText) findViewById(R.id.tiet_password);
 
-        tvShow = (TextView) findViewById(R.id.tv_show);
         ivIcon = (ImageView) findViewById(R.id.iv_icon);
 
-        btnToLogin = (Button) findViewById(R.id.btn_to_login);
         btnRegister = (Button) findViewById(R.id.btn_register);
+        tvBtnToLogin = (TextView) findViewById(R.id.btn_to_login);
 
-        btnToLogin.setOnClickListener(this);
         btnRegister.setOnClickListener(this);
         ivIcon.setOnClickListener(this);
+        tvBtnToLogin.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
-            case R.id.btn_to_login:
-                toLogin();
-                break;
             case R.id.btn_register:
                 if (isOK()) {
                     register();
@@ -75,12 +74,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             case R.id.iv_icon:
                 showSelectPopupView();
                 break;
+            case R.id.btn_to_login:
+                finish();
+                break;
         }
-    }
-
-    private void toLogin() {
-        LoginActivity.actionActivity(this);
-        finish();
     }
 
     private void register() {
@@ -89,18 +86,18 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         user.put("accid", mAccid);
         user.put("name", mName);
         user.put("token", mPassword);
-        user.put("icon",mIcon);
+        user.put("icon", mIcon);
 
         //
         RegisterUtil.registerUser(user, new RegisterUtil.MsgCallBack() {
             @Override
             public void onError(String e) {
-                tvShow.setText(e);
+                SnackBarUtils.makeShort(btnRegister, e).warning();
             }
 
             @Override
             public void onSuccess(String tips) {
-                tvShow.setText(tips);
+                SnackBarUtils.makeShort(btnRegister, tips).warning();
             }
         });
     }
@@ -110,7 +107,16 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         mName = etName.getText().toString();
         mPassword = etPassword.getText().toString();
 
-        if (mAccid.isEmpty() && mName.isEmpty() && mPassword.isEmpty()) {
+        if (mAccid.isEmpty()) {
+            etAccid.setError("ID不能为空");
+            return false;
+        }
+        if (mName.isEmpty()) {
+            etName.setError("昵称不能为空");
+            return false;
+        }
+        if (mPassword.isEmpty()) {
+            etPassword.setError("密码不能为空");
             return false;
         }
 
@@ -131,7 +137,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
                     @Override
                     public void cameraListener() {
-                        if (mCamera==null){
+                        if (mCamera == null) {
                             mCamera = new PictureCamera(RegisterActivity.this);
                         }
                         startActivityForResult(mCamera.initIntent(), REQUEST_PICTURE_CAMERA_HEAD);
@@ -159,11 +165,11 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
-    private void upIcon(String path){
+    private void upIcon(String path) {
         IconUtil.up(path, new RegisterUtil.MsgCallBack() {
             @Override
             public void onError(String e) {
-                tvShow.setText(e);
+                SnackBarUtils.makeShort(btnRegister, e).warning();
             }
 
             @Override
@@ -173,7 +179,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                         .load(tips)
                         .into(ivIcon);
 
-                tvShow.setText("头像上传成功");
+                SnackBarUtils.makeShort(btnRegister, "头像上传成功").show();
             }
         });
     }

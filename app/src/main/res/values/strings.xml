@@ -3,4 +3,8 @@
     <string name="app_name">你问我答</string>
     <string name="km">KM</string>
     <string name="push">提交</string>
+
+
+    <string name="accid_digits">0123456789abcdefghijklmnopqrstuvwxyz</string>
+    <string name="pwd_digits">.?@$*0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 </resources>

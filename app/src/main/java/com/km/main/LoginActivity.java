@@ -1,12 +1,13 @@
 package com.km.main;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.km.R;
@@ -17,18 +18,19 @@ import com.netease.nimlib.sdk.auth.AuthService;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
-    private EditText account;//用户名
-    private EditText passwd;//密码
-    private Button login,toRegister;//登录
+    private TextInputEditText account;//用户名
+    private TextInputEditText passwd;//密码
+    private Button login;//登录
+    private TextView toRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);//设置第四步中的View
-        account = (EditText) findViewById(R.id.account);//初始化控件
-        passwd  = (EditText)findViewById(R.id.passwd);//初始化控件
+        account = (TextInputEditText) findViewById(R.id.tiet_login_accid);//初始化控件
+        passwd  = (TextInputEditText)findViewById(R.id.tiet_login_password);//初始化控件
         login = (Button) findViewById(R.id.login);//初始化控件
-        toRegister = (Button) findViewById(R.id.btn_to_register);
+        toRegister = (TextView) findViewById(R.id.btn_to_register);
         //实现Button的监听
         login.setOnClickListener(this);
         toRegister.setOnClickListener(this);
@@ -67,10 +69,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         Preferences.saveUserToken(token);
     }
 
-    public static void actionActivity(Context context){
-        Intent intent = new Intent(context,LoginActivity.class);
-        context.startActivity(intent);
-    }
 
     @Override
     public void onClick(View v) {

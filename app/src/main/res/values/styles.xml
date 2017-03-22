@@ -11,4 +11,39 @@
     <style name="MyTheme" parent="AppTheme">
 
     </style>
+
+    <!--注册与登录的统一主题-->
+
+    <!--登录或注册按钮主题-->
+    <style name="login_and_register_btn">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/shape_btn</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <!--跳转按钮主题-->
+    <style name="to_login_or_register">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!--输入accid的主题-->
+    <style name="accid_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textAutoComplete</item>
+        <item name="android:digits">@string/accid_digits</item>
+    </style>
+    <!--输入密码的主题-->
+    <style name="password_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:digits">@string/pwd_digits</item>
+    </style>
+
 </resources>
