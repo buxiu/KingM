@@ -22,8 +22,8 @@ public class MainPresent extends BasePresent<MainView> {
         userBiz = new UserBiz();
     }
 
-    public void toChatUI(){
-        userBiz.toChatUI(mContext,mView.getAccount());
+    public void toChatUI(String account){
+        userBiz.toChatUI(mContext,account);
     }
 
 }

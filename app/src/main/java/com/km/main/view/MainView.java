@@ -7,6 +7,6 @@ package com.km.main.view;
 
 public interface MainView {
 
-    String getAccount();
+
 
 }

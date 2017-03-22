@@ -2,45 +2,66 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30dp"
     android:background="@color/white">
 
+    <ImageView
+        android:id="@+id/title_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
     <TextView
-        android:text="你最喜欢的电影是什么呢？"
         android:id="@+id/title_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:gravity="center"
-        android:textSize="30sp"/>
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/title_icon"/>
 
-    <Button
-        android:text="《不能说的秘密》"
-        android:id="@+id/A_answer"
+    <RadioGroup
+        android:id="@+id/answer_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/title_answer"
-        android:gravity="center"
-        android:textSize="25sp"/>
+        android:layout_below="@id/title_answer">
+
+        <RadioButton
+            android:id="@+id/A_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:button="@null"
+            android:background="@drawable/radio"  />
+
+        <RadioButton
+            android:id="@+id/B_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radio"
+            android:layout_marginTop="3dp"/>
+
+        <RadioButton
+            android:id="@+id/C_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radio"
+            android:layout_marginTop="3dp" />
+    </RadioGroup>
 
     <Button
-        android:text="《扑街子》"
-        android:id="@+id/B_answer"
-        android:layout_width="match_parent"
+        android:id="@+id/check_answer"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/answer_group"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/A_answer"
-        android:gravity="center"
-        android:textSize="25sp"/>
-
-    <Button
-        android:text="《食屎啦你》"
-        android:id="@+id/C_answer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_below="@id/B_answer"
-        android:gravity="center"
-        android:textSize="25sp"/>
+        android:layout_marginTop="3dp"
+        android:text="@string/push"/>
 
 </RelativeLayout>
