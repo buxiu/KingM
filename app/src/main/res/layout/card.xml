@@ -63,7 +63,7 @@
         android:layout_below="@id/answer_group"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="3dp"
-        android:background="@drawable/shape_btn"
+        android:background="@drawable/button_selector"
         android:text="@string/push"/>
 
 </RelativeLayout>

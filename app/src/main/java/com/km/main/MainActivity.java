@@ -1,6 +1,8 @@
 package com.km.main;
 
+
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 import com.km.R;
 import com.km.base.BaseActivity;
@@ -15,16 +17,37 @@ import com.wangxiandeng.swipecardrecyclerview.SwipeCardRecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MainActivity extends BaseActivity<MainView,MainPresent> implements MainView {
 
-    private SwipeCardRecyclerView mRecyclerView;
-    private CardAdapter mCardAdapter;
+    SwipeCardRecyclerView mRecyclerView;
+    CardAdapter mCardAdapter;
+    CircleImageView user_icon_btn,contact_icon_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initBtn();
         initCard();
+    }
+
+    private void initBtn() {
+        user_icon_btn = (CircleImageView) findViewById(R.id.user_icon);
+        contact_icon_btn = (CircleImageView) findViewById(R.id.contact_icon);
+        user_icon_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                present.toUserUI();
+            }
+        });
+        contact_icon_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                present.toContactUI();
+            }
+        });
     }
 
     private void initCard() {
