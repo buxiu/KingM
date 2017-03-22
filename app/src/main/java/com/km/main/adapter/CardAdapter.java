@@ -6,10 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.km.R;
 import com.km.main.bean.Answer;
 import com.wangxiandeng.swipecardrecyclerview.SwipeCardAdapter;
@@ -45,6 +47,8 @@ public class CardAdapter extends SwipeCardAdapter<CardAdapter.Holder>{
 
     class Holder extends RecyclerView.ViewHolder {
 
+        String account;
+        private ImageView title_icon;
         private TextView title;
         private RadioGroup radioGroup;
         private RadioButton a_rb,b_rb,c_rb;
@@ -54,6 +58,7 @@ public class CardAdapter extends SwipeCardAdapter<CardAdapter.Holder>{
 
         Holder(View itemView) {
             super(itemView);
+            title_icon = (ImageView) itemView.findViewById(R.id.title_icon);
             title = (TextView) itemView.findViewById(R.id.title_answer);
             radioGroup = (RadioGroup) itemView.findViewById(R.id.answer_group);
             a_rb = (RadioButton) itemView.findViewById(R.id.A_answer);
@@ -90,7 +95,7 @@ public class CardAdapter extends SwipeCardAdapter<CardAdapter.Holder>{
                 @Override
                 public void onClick(View v) {
                     if(checkAnswer()){
-                        mCheckAnswerListener.isTrue();
+                        mCheckAnswerListener.isTrue(account);
                     }else {
                         mCheckAnswerListener.isFalse();
                     }
@@ -99,10 +104,13 @@ public class CardAdapter extends SwipeCardAdapter<CardAdapter.Holder>{
         }
 
         public void setData(Answer answer){
+            account = answer.getAccount();
             title.setText(answer.getTitle());
             a_rb.setText(answer.getA());
             b_rb.setText(answer.getB());
             c_rb.setText(answer.getC());
+            right_flag = answer.getRight_flag();
+            Glide.with(mContext).load(answer.getIcon_url()).into(title_icon);
         }
 
         private boolean checkAnswer(){

@@ -7,6 +7,6 @@ package com.km.main.adapter;
 
 public interface CheckAnswerListener {
 
-    void isTrue();
+    void isTrue(String account);
     void isFalse();
 }

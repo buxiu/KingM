@@ -5,48 +5,54 @@
     android:padding="30dp"
     android:background="@color/white">
 
+    <ImageView
+        android:id="@+id/title_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
     <TextView
         android:id="@+id/title_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:textSize="30sp"/>
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/title_icon"/>
 
     <RadioGroup
         android:id="@+id/answer_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_below="@id/title_answer">
 
         <RadioButton
             android:id="@+id/A_answer"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:gravity="center"
+            android:textSize="20sp"
             android:button="@null"
             android:background="@drawable/radio"  />
 
         <RadioButton
             android:id="@+id/B_answer"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:layout_weight="1"
-            android:gravity="center"
             android:button="@null"
-            android:background="@drawable/radio"  />
+            android:background="@drawable/radio"
+            android:layout_marginTop="3dp"/>
 
         <RadioButton
             android:id="@+id/C_answer"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:layout_weight="1"
-            android:gravity="center"
             android:button="@null"
-            android:background="@drawable/radio"  />
+            android:background="@drawable/radio"
+            android:layout_marginTop="3dp" />
     </RadioGroup>
 
     <Button
@@ -54,7 +60,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/answer_group"
-        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
         android:text="@string/push"/>
 
 </RelativeLayout>
