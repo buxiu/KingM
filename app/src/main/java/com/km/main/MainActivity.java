@@ -1,8 +1,6 @@
 package com.km.main;
 
 import android.os.Bundle;
-import android.provider.Settings;
-import android.view.View;
 import android.widget.Toast;
 import com.km.R;
 import com.km.base.BaseActivity;
