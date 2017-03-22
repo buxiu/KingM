@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">你问我答</string>
     <string name="km">KM</string>
+    <string name="push">提交</string>
 </resources>

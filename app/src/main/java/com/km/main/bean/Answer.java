@@ -8,6 +8,15 @@ package com.km.main.bean;
 public class Answer {
 
     private String title,A,B,C;
+    private int right_flag;
+
+    public int getRight_flag() {
+        return right_flag;
+    }
+
+    public void setRight_flag(int right_flag) {
+        this.right_flag = right_flag;
+    }
 
     public String getTitle() {
         return title;

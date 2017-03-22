@@ -1,22 +1,18 @@
 package com.km.main;
 
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-
 import com.km.R;
 import com.km.base.BaseActivity;
 import com.km.main.adapter.CardAdapter;
+import com.km.main.adapter.CheckAnswerListener;
 import com.km.main.bean.Answer;
 import com.km.main.present.MainPresent;
 import com.km.main.view.MainView;
 import com.wangxiandeng.swipecardrecyclerview.ItemRemovedListener;
 import com.wangxiandeng.swipecardrecyclerview.SwipeCardLayoutManager;
 import com.wangxiandeng.swipecardrecyclerview.SwipeCardRecyclerView;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,7 +40,17 @@ public class MainActivity extends BaseActivity<MainView,MainPresent> implements 
             answer.setC("啦啦啦啦啦啦" + i );
             mList.add(answer);
         }
-        mCardAdapter = new CardAdapter(this,mList);
+        mCardAdapter = new CardAdapter(this, mList, new CheckAnswerListener() {
+            @Override
+            public void isTrue() {
+                //答对了
+            }
+
+            @Override
+            public void isFalse() {
+                //答错了
+            }
+        });
         mRecyclerView.setAdapter(mCardAdapter);
         mRecyclerView.setRemovedListener(new ItemRemovedListener() {
             @Override
