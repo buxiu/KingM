@@ -38,6 +38,7 @@
         <item name="android:inputType">textAutoComplete</item>
         <item name="android:digits">@string/accid_digits</item>
     </style>
+
     <!--输入密码的主题-->
     <style name="password_style">
         <item name="android:layout_width">match_parent</item>

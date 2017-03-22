@@ -32,6 +32,7 @@
         style="@style/login_and_register_btn"
         android:text="登录" />
 
+
     <TextView
         android:id="@+id/btn_to_register"
         style="@style/to_login_or_register"

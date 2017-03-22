@@ -80,6 +80,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
+
     private void register() {
 
         Map<String, String> user = new HashMap<>();

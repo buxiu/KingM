@@ -17,6 +17,7 @@ public class SnackBarUtils {
 
     private Snackbar mSnackbar;
 
+
     private SnackBarUtils(Snackbar snackbar) {
         mSnackbar = snackbar;
     }

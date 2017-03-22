@@ -57,4 +57,5 @@
         style="@style/to_login_or_register"
         android:text="登录"/>
 
+
 </LinearLayout>
