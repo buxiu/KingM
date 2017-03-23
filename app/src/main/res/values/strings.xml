@@ -1,5 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingTranslation">
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">你问我答</string>
     <string name="km">KM</string>
     <string name="push">提交</string>
@@ -7,5 +6,8 @@
 
     <string name="accid_digits">0123456789abcdefghijklmnopqrstuvwxyz</string>
     <string name="pwd_digits">.?@$*0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="my_question">我的问题</string>
+    <string name="setting">设置</string>
+    <string name="me">我的</string>
 
 </resources>
