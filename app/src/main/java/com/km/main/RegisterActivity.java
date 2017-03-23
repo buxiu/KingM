@@ -167,17 +167,17 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void upIcon(String path) {
-        IconUtil.up(path, new RegisterUtil.MsgCallBack() {
+        IconUtil.upload(path, new RegisterUtil.MsgCallBack() {
             @Override
             public void onError(String e) {
                 SnackBarUtils.makeShort(btnRegister, e).warning();
             }
 
             @Override
-            public void onSuccess(String tips) {
-                mIcon = tips;
+            public void onSuccess(String url) {
+                mIcon = url;
                 Glide.with(RegisterActivity.this)
-                        .load(tips)
+                        .load(url)
                         .into(ivIcon);
 
                 SnackBarUtils.makeShort(btnRegister, "头像上传成功").show();
