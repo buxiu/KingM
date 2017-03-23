@@ -166,6 +166,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
+
     private void upIcon(String path) {
         IconUtil.upload(path, new RegisterUtil.MsgCallBack() {
             @Override
