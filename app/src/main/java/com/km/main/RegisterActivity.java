@@ -5,12 +5,15 @@ import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.km.R;
@@ -21,6 +24,7 @@ import com.km.util.IconUtil;
 import com.km.util.RegisterUtil;
 import com.km.util.SnackBarUtils;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,12 +33,13 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private static final int REQUEST_PICTURE_CHOOSE_HEAD = 0x1;
     private static final int REQUEST_PICTURE_CAMERA_HEAD = 0x2;
 
-    private Button btnRegister;
+    private String mAccid, mName, mPassword, mIcon = "", imgPath = "";
     private TextInputEditText etAccid, etName, etPassword;
-    private String mAccid, mName, mPassword, mIcon = "";
 
     private ImageView ivIcon;
+    private Button btnRegister;
     private TextView tvBtnToLogin;
+    private ImageButton ibtnBack;
 
     private PictureCamera mCamera;
     private PictureChoose mChoose;
@@ -56,10 +61,12 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
         btnRegister = (Button) findViewById(R.id.btn_register);
         tvBtnToLogin = (TextView) findViewById(R.id.btn_to_login);
+        ibtnBack = (ImageButton) findViewById(R.id.ibtn_back);
 
         btnRegister.setOnClickListener(this);
         ivIcon.setOnClickListener(this);
         tvBtnToLogin.setOnClickListener(this);
+        ibtnBack.setOnClickListener(this);
     }
 
     @Override
@@ -68,13 +75,20 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         switch (id) {
             case R.id.btn_register:
                 if (isOK()) {
-                    register();
+                    if (imgPath.isEmpty()) {
+                        register();
+                    } else {
+                        upIcon(imgPath);
+                    }
                 }
                 break;
             case R.id.iv_icon:
                 showSelectPopupView();
                 break;
             case R.id.btn_to_login:
+                finish();
+                break;
+            case R.id.ibtn_back:
                 finish();
                 break;
         }
@@ -99,6 +113,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             @Override
             public void onSuccess(String tips) {
                 SnackBarUtils.makeShort(btnRegister, tips).warning();
+                finish();
             }
         });
     }
@@ -152,20 +167,27 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         if (resultCode == RESULT_OK) {
             switch (requestCode) {
                 case REQUEST_PICTURE_CHOOSE_HEAD:
-                    String chooseSrc = mChoose.getPath(data);
-                    upIcon(chooseSrc);
+                    imgPath = mChoose.getPath(data);
+                    locatShowIcon();
+                    //upIcon(chooseSrc);
                     break;
                 case REQUEST_PICTURE_CAMERA_HEAD:
                     String cameraSrc = mCamera.getCameraPath();
-                    if (cameraSrc.equals("")) {
-                        return;
+                    if (!TextUtils.isEmpty(cameraSrc)) {
+                        imgPath = cameraSrc;
                     }
-                    upIcon(cameraSrc);
+                    locatShowIcon();
+                    //upIcon(cameraSrc);
                     break;
             }
         }
     }
 
+    private void locatShowIcon() {
+        Glide.with(RegisterActivity.this)
+                .load(new File(imgPath))
+                .into(ivIcon);
+    }
 
     private void upIcon(String path) {
         IconUtil.up(path, new RegisterUtil.MsgCallBack() {
@@ -177,11 +199,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             @Override
             public void onSuccess(String url) {
                 mIcon = url;
-                Glide.with(RegisterActivity.this)
-                        .load(url)
-                        .into(ivIcon);
-
-                SnackBarUtils.makeShort(btnRegister, "头像上传成功").show();
+                //SnackBarUtils.makeShort(btnRegister, "头像上传成功").show();
+                if (!url.isEmpty()) {
+                    register();
+                }
             }
         });
     }

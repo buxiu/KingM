@@ -2,40 +2,61 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingLeft="50dp"
-    android:paddingRight="50dp"
-    android:gravity="center_vertical">
+    android:orientation="vertical">
 
-    <android.support.design.widget.TextInputLayout
+    <!--top-->
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="38dp">
 
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/tiet_login_accid"
-            style="@style/accid_style"
-            android:hint="请输入ID" />
-    </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:text="登录"
+            android:textSize="24sp" />
 
-    <android.support.design.widget.TextInputLayout
+    </FrameLayout>
+    <!--top end-->
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
 
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/tiet_login_password"
-            style="@style/password_style"
-            android:hint="请输入密码" />
-    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/login"
-        style="@style/login_and_register_btn"
-        android:text="登录" />
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tiet_login_accid"
+                style="@style/accid_style"
+                android:hint="请输入ID" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tiet_login_password"
+                style="@style/password_style"
+                android:hint="请输入密码" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login"
+            style="@style/login_and_register_btn"
+            android:text="登录" />
 
 
-    <TextView
-        android:id="@+id/btn_to_register"
-        style="@style/to_login_or_register"
-        android:text="注册"/>
+        <TextView
+            android:id="@+id/btn_to_register"
+            style="@style/to_login_or_register"
+            android:text="注册" />
+
+    </LinearLayout>
 
 </LinearLayout>
