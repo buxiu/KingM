@@ -15,6 +15,8 @@ import com.netease.nimlib.sdk.RequestCallbackWrapper;
 import com.netease.nimlib.sdk.ResponseCode;
 import com.netease.nimlib.sdk.nos.NosService;
 
+import java.io.File;
+
 
 /**
  * Created by SoYao on 2017/3/21.
@@ -47,8 +49,9 @@ public class IconUtil {
      * @param callBack
      */
     public static void upload(String path, final MsgCallBack callBack) {
+        File file = CompressImage.doing(path);
         AbortableFuture<String> uploadFuture = NIMClient.getService(NosService.class)
-                .upload(CompressImage.doing(path), PickImageAction.MIME_JPEG);
+                .upload(file, PickImageAction.MIME_JPEG);
         uploadFuture.setCallback(new RequestCallbackWrapper<String>() {
             @Override
             public void onResult(int code, String url, Throwable throwable) {
