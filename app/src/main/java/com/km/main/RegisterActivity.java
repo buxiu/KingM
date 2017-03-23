@@ -168,7 +168,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
 
     private void upIcon(String path) {
-        IconUtil.upload(path, new RegisterUtil.MsgCallBack() {
+        IconUtil.up(path, new RegisterUtil.MsgCallBack() {
             @Override
             public void onError(String e) {
                 SnackBarUtils.makeShort(btnRegister, e).warning();
