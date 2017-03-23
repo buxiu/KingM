@@ -5,10 +5,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/user_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="4dp"
-        android:layout_alignParentLeft="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="4dp"
         android:clickable="true"
         android:src="@mipmap/user"/>
 
@@ -22,9 +21,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/contact_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingRight="4dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="4dp"
         android:layout_alignParentRight="true"
         android:clickable="true"
         android:src="@mipmap/contacts"/>
