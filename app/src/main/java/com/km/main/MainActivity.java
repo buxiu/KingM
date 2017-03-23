@@ -11,6 +11,7 @@ import com.km.main.adapter.CheckAnswerListener;
 import com.km.main.bean.Answer;
 import com.km.main.present.MainPresent;
 import com.km.main.view.MainView;
+import com.wangxiandeng.swipecardrecyclerview.ItemRemovedListener;
 import com.wangxiandeng.swipecardrecyclerview.SwipeCardLayoutManager;
 import com.wangxiandeng.swipecardrecyclerview.SwipeCardRecyclerView;
 import java.util.ArrayList;
@@ -97,6 +98,17 @@ public class MainActivity extends BaseActivity<MainView,MainPresent> implements 
             }
         });
         mRecyclerView.setAdapter(mCardAdapter);
+        mRecyclerView.setRemovedListener(new ItemRemovedListener() {
+            @Override
+            public void onRightRemoved() {
+
+            }
+
+            @Override
+            public void onLeftRemoved() {
+
+            }
+        });
     }
 
     @Override
