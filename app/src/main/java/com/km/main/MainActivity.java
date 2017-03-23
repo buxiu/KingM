@@ -3,8 +3,8 @@ package com.km.main;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 import com.km.R;
+import com.km.app.KMCache;
 import com.km.base.BaseActivity;
 import com.km.main.adapter.CardAdapter;
 import com.km.main.adapter.CheckAnswerListener;
@@ -23,6 +23,7 @@ public class MainActivity extends BaseActivity<MainView,MainPresent> implements 
 
     private static final String QUSTION = "  Q：";
     private static final String ME = "M：";
+    private int answer_count;
 
     SwipeCardRecyclerView mRecyclerView;
     CardAdapter mCardAdapter;
@@ -34,6 +35,16 @@ public class MainActivity extends BaseActivity<MainView,MainPresent> implements 
         setContentView(R.layout.activity_main);
         initBtn();
         initCard();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setUserIcon();
+    }
+
+    private void setUserIcon() {
+        present.setUserIcon(user_icon_btn, KMCache.getAccount());
     }
 
     private void initBtn() {
@@ -72,23 +83,30 @@ public class MainActivity extends BaseActivity<MainView,MainPresent> implements 
             public void isTrue(String account) {
                 //答对了
                 present.toChatUI(account);
+                if(answer_count == 0){
+                    present.sendMessage(account,"我一次就答对了");
+                }else {
+                    present.sendMessage(account,"答错了" + answer_count + "次");
+                }
             }
 
             @Override
             public void isFalse() {
                 //答错了
+                answer_count++;
+                present.showToast("答错了，请重选~");
             }
         });
         mRecyclerView.setAdapter(mCardAdapter);
         mRecyclerView.setRemovedListener(new ItemRemovedListener() {
             @Override
             public void onRightRemoved() {
-                Toast.makeText(MainActivity.this, "right", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
             public void onLeftRemoved() {
-                Toast.makeText(MainActivity.this, "right", Toast.LENGTH_SHORT).show();
+
             }
         });
     }
