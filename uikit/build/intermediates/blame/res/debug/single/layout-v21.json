@@ -1,18 +1,18 @@
 [
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]

@@ -1,19 +1,19 @@
 [
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_snackbar_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_semitransparency_selector.xml",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_semitransparency_selector.xml"
-    },
-    {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_popup_menu_item_black_selector.xml",
@@ -21,11 +21,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_contact_list_item_selecter.xml",
@@ -33,11 +33,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_bg_low.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_sticker_button_background_pressed_layer_list.xml",
@@ -53,23 +53,23 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_plus_location_selector.xml",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_message_plus_location_selector.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_dialog_material_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_vector_test.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_play_btn_select.xml",
@@ -84,16 +84,16 @@
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_message_unread_news_icon_selector.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_view_bottom.xml",
-        "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_message_view_bottom.xml"
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle_focused.xml",
+        "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_bg_edittext_rectangle_focused.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_plus_photo_selector.xml",
         "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_message_plus_photo_selector.xml"
     },
     {
-        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle_focused.xml",
-        "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_bg_edittext_rectangle_focused.xml"
+        "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_view_bottom.xml",
+        "source": "I:\\promake\\KingM\\uikit\\res\\drawable\\nim_message_view_bottom.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_team_member_delete_selector.xml",
@@ -101,11 +101,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\navigation_empty_icon.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_actionbar_nest_dark_logo.xml",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_fab_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_portrait_mask_round.xml",
@@ -133,11 +133,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_tile_bg.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_button_bottom_audio_selector.xml",
@@ -149,7 +149,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_cancel_record_red_bg.xml",
@@ -157,7 +157,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_audio_animation_list_left.xml",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_emoji_item_selector.xml",
@@ -181,7 +181,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_search_api_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_picker_preview_btn_selector.xml",
@@ -189,11 +189,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_item_left_selector.xml",
@@ -209,7 +209,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_icon_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_button_bottom_send_selector.xml",
@@ -241,7 +241,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_clear_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_recent_contact_sticky_selecter.xml",
@@ -265,11 +265,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_red_round_button_selector.xml",
@@ -285,7 +285,7 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_footer_loading_progress.xml",
@@ -293,23 +293,23 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\notification_bg.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_team_member_add_selector.xml",
@@ -321,11 +321,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_list_item_selector.xml",
@@ -341,15 +341,15 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable\\design_password_eye.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ratingbar_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_popup_menu_item_selector.xml",
@@ -357,19 +357,19 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_check_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_gray_edit_text_bg.xml",
@@ -377,11 +377,11 @@
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_cameras_selector.xml",

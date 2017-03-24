@@ -1,35 +1,35 @@
 [
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-v21\\avd_show_password.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-v21\\notification_action_background.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-v21\\avd_hide_password.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-v21\\design_password_eye.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\ea298837b62afd318fa9f00963edab8ba0d63908\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "I:\\promake\\KingM\\uikit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "source": "C:\\Users\\yuan\\.android\\build-cache\\79f7dc3f76732699875be4db58125abbd92f1472\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "I:\\promake\\KingM\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\touch_bg.xml",
